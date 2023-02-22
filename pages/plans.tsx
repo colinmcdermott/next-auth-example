@@ -115,7 +115,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
         </div>
     </div>
 
-    <p>Prices are excluding VAT/local taxes. Payments and subscriptions are processed by Fast Spring.</p>
+    <p><small>Prices are excluding VAT/local taxes. Payments and subscriptions are processed by Fast Spring.</small></p>
 
     </Layout>
   )
