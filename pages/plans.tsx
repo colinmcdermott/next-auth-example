@@ -52,7 +52,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
       <p>View prices in: <button onClick={() => handleCurrencyChange("USD")}>USD</button> <button onClick={() => handleCurrencyChange("GBP")}>GBP</button></p>
 
     <div className={styles.plansContainer}>
-        <div>
+        <div className={styles.card}>
             <h2>Starter</h2>
             <p><strong>{getPrice("starter")}</strong> per month</p>
             <p>For smaller publications</p>
@@ -72,7 +72,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                 </div>
             </div>
         </div>
-        <div>
+        <div className={styles.card}>
             <h2>Pro</h2>
             <p><strong>{getPrice("pro")}</strong> per month</p>
             <p>For mid-sized publications</p>
@@ -92,7 +92,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                 </div>
             </div>
         </div>
-        <div>
+        <div className={styles.card}>
             <h2>Enterprise</h2>
             <p><strong>{getPrice("enterprise")}</strong> per month</p>
             <p>For large publications &amp; newspapers</p>
@@ -117,7 +117,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
 
     <p><small>Prices shown do not include VAT or local taxes. Payment and subscription processing is handled by FastSpring.</small></p>
 
-    <p><small>You can cancel or manage your subscription at any time from the billing dashboard.</small></p>
+    <p><small>You can cancel or manage your subscription at any time from the Fast Spring billing dashboard.</small></p>
 
 
     </Layout>

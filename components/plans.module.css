@@ -6,6 +6,13 @@
     margin: 0 auto;
 }
 
+.card {
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 8px;
+    opacity: .99;
+}
+
 /* Media query for mobile */
 
 @media (max-width: 768px) {
