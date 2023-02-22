@@ -54,7 +54,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
     <div className={styles.plansContainer}>
         <div>
             <h2>Starter</h2>
-            <p>{getPrice("starter")} per month</p>
+            <p><strong>{getPrice("starter")}</strong> per month</p>
             <p>For smaller publications</p>
             <div>
                 <div>
@@ -74,7 +74,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
         </div>
         <div>
             <h2>Pro</h2>
-            <p>{getPrice("pro")} per month</p>
+            <p><strong>{getPrice("pro")}</strong> per month</p>
             <p>For mid-sized publications</p>
             <div>
                 <div>
@@ -94,7 +94,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
         </div>
         <div>
             <h2>Enterprise</h2>
-            <p>{getPrice("enterprise")} per month</p>
+            <p><strong>{getPrice("enterprise")}</strong> per month</p>
             <p>For large publications &amp; newspapers</p>
             <div>
                 <div>
