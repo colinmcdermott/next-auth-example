@@ -30,9 +30,9 @@ export default function ServerSidePage({ session }: { session: Session }) {
           enterprise: "£799.99",
         },
         USD: {
-          starter: "$129.99",
+          starter: "$119.99",
           pro: "$499.99",
-          enterprise: "$999.99",
+          enterprise: "$979.99",
         },
       };
       
