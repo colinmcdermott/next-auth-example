@@ -17,9 +17,6 @@ export const authOptions: NextAuthOptions = {
       clientSecret: process.env.GOOGLE_SECRET,
     }),
   ],
-  theme: {
-    colorScheme: "light",
-  },
   callbacks: {
     async jwt({ token }) {
       token.userRole = "admin"
