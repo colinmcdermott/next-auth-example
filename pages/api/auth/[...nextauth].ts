@@ -2,6 +2,11 @@
 
 import NextAuth, { NextAuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
+import { User } from "next-auth";
+
+interface CustomUser extends User {
+  isFirstLogin?: boolean;
+}
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -13,7 +18,7 @@ export const authOptions: NextAuthOptions = {
   callbacks: {
     async jwt({ token, user }) {
       if (user) {
-        token.user = user;
+        token.user = user as CustomUser;
         if (!user.isFirstLogin) {
           // This is the first time the user logs in
           token.user.isFirstLogin = true;
