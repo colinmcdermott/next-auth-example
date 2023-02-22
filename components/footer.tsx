@@ -16,7 +16,7 @@ export default function Footer() {
           <a href="https://pubindexapi.com/privacy/">Privacy</a>
         </li>
       </ul>
-      <p>PubIndexAPI © 2023 Search Candy Ltd - UK Company: 09241383</p>
+      <p><small>PubIndexAPI © 2023 Search Candy Ltd - UK Company: 09241383</small></p>
     </footer>
   )
 }

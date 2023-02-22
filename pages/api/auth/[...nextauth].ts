@@ -1,16 +1,9 @@
-import NextAuth, { NextAuthOptions } from "next-auth"
-import GoogleProvider from "next-auth/providers/google"
-import FacebookProvider from "next-auth/providers/facebook"
-import GithubProvider from "next-auth/providers/github"
-import TwitterProvider from "next-auth/providers/twitter"
-import Auth0Provider from "next-auth/providers/auth0"
-// import AppleProvider from "next-auth/providers/apple"
-// import EmailProvider from "next-auth/providers/email"
+// Path: pages\api\auth\[...nextauth].ts
 
-// For more information on each option (and a full list of options) go to
-// https://next-auth.js.org/configuration/options
+import NextAuth, { NextAuthOptions } from "next-auth";
+import GoogleProvider from "next-auth/providers/google";
+
 export const authOptions: NextAuthOptions = {
-  // https://next-auth.js.org/configuration/providers/oauth
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_ID,
@@ -18,11 +11,24 @@ export const authOptions: NextAuthOptions = {
     }),
   ],
   callbacks: {
-    async jwt({ token }) {
-      token.userRole = "admin"
-      return token
+    async jwt({ token, user }) {
+      if (user) {
+        token.user = user;
+        if (!user.isFirstLogin) {
+          // This is the first time the user logs in
+          token.user.isFirstLogin = true;
+          token.userRole = "admin";
+        }
+      }
+      return token;
+    },
+    async redirect({ url, baseUrl, user }) {
+      if (user.isFirstLogin) {
+        return Promise.resolve("/plans");
+      }
+      return Promise.resolve(url);
     },
   },
-}
+};
 
-export default NextAuth(authOptions)
+export default NextAuth(authOptions);
