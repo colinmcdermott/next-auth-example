@@ -59,12 +59,12 @@ export default function ServerSidePage({ session }: { session: Session }) {
             <div>
                 <div>
                     <ul>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Indexing API</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> RSS &amp; sitemap polling</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 10,000 API requests per month</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 5 GB bandwidth</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Email support</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Onboarding support</li>
+                        <li>Indexing API</li>
+                        <li>RSS &amp; sitemap polling</li>
+                        <li>10,000 API requests per month</li>
+                        <li>5 GB bandwidth</li>
+                        <li>Email support</li>
+                        <li>Onboarding support</li>
                     </ul>
                 </div>
                 <div>
@@ -79,12 +79,12 @@ export default function ServerSidePage({ session }: { session: Session }) {
             <div>
                 <div>
                     <ul>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Indexing API</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> RSS &amp; sitemap polling</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 100,000 API requests per month</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 40 GB bandwidth</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Email &amp; phone support</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Onboarding support</li>
+                        <li>Indexing API</li>
+                        <li>RSS &amp; sitemap polling</li>
+                        <li>100,000 API requests per month</li>
+                        <li>40 GB bandwidth</li>
+                        <li>Email &amp; phone support</li>
+                        <li>Onboarding support</li>
                     </ul>
                 </div>
                 <div>
@@ -99,13 +99,13 @@ export default function ServerSidePage({ session }: { session: Session }) {
             <div>
                 <div>
                     <ul>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Indexing API</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> RSS &amp; sitemap polling</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 275,000 API requests per month</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 100 GB bandwidth</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Email &amp; phone support</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Onboarding support</li>
-                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Success manager</li>
+                        <li>Indexing API</li>
+                        <li>RSS &amp; sitemap polling</li>
+                        <li>275,000 API requests per month</li>
+                        <li>100 GB bandwidth</li>
+                        <li>Email &amp; phone support</li>
+                        <li>Onboarding support</li>
+                        <li>Success manager</li>
                     </ul>
                 </div>
                 <div>
