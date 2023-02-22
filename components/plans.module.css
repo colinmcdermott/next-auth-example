@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 25px auto;
     gap: 18px;
 }
 
@@ -13,7 +13,7 @@
     border-radius: 8px;
     opacity: .99;
     min-height: 379px;
-    min-width: 305px;
+    min-width: 275px;
 }
 
 /* Media query for mobile */
