@@ -33,6 +33,6 @@ iframe {
 
 @media (max-width: 768px) {
   a:any-link {
-      color: lightblue;
+      color: rgb(208, 173, 240);
   }
 }
