@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { getServerSession } from "next-auth/next"
 import { authOptions } from "./api/auth/[...nextauth]"
 import Layout from "../components/layout"
@@ -7,21 +8,46 @@ import type { GetServerSidePropsContext } from "next"
 import type { Session } from "next-auth"
 
 export default function ServerSidePage({ session }: { session: Session }) {
-  // As this page uses Server Side Rendering, the `session` will be already
-  // populated on render without needing to go through a loading stage.
-  return (
+    const [currency, setCurrency] = useState("GBP")
+  
+    const handleCurrencyChange = (newCurrency: string) => {
+      setCurrency(newCurrency)
+    }
+  
+    // Define the prices in GBP and USD
+    const prices = {
+      GBP: {
+        starter: "£99.99",
+        pro: "£399.99",
+        enterprise: "£799.99",
+      },
+      USD: {
+        starter: "$129.99",
+        pro: "$499.99",
+        enterprise: "$999.99",
+      },
+    }
+  
+    // Get the price based on the selected currency
+    const getPrice = (plan: string) => {
+      return prices[currency][plan]
+    }
+  
+    // As this page uses Server Side Rendering, the `session` will be already
+    // populated on render without needing to go through a loading stage.
+    return (
     <Layout>
 
       <h1>Choose a plan</h1>
       <p>
         Need help choosing a plan? <a href="https://pubindexapi.com/contact/">Contact us here</a>.
       </p>
-      <p>View prices in: <button>USD</button> <button>GBP</button></p>
+      <p>View prices in: <button onClick={() => handleCurrencyChange("USD")}>USD</button> <button onClick={() => handleCurrencyChange("GBP")}>GBP</button></p>
 
     <div className={styles.plansContainer}>
         <div>
             <h2>Starter</h2>
-            <p>&pound;99.99 per month</p>
+            <p>{getPrice("starter")} per month</p>
             <p>For smaller publications</p>
             <div>
                 <div>
@@ -41,7 +67,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
         </div>
         <div>
             <h2>Pro</h2>
-            <p>&pound;399.99 per month</p>
+            <p>{getPrice("pro")} per month</p>
             <p>For mid-sized publications</p>
             <div>
                 <div>
@@ -61,7 +87,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
         </div>
         <div>
             <h2>Enterprise</h2>
-            <p>&pound;799.99 per month</p>
+            <p>{getPrice("enterprise")} per month</p>
             <p>For large publications &amp; newspapers</p>
             <div>
                 <div>
