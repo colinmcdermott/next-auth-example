@@ -7,16 +7,13 @@ export default function Footer() {
       <hr />
       <ul className={styles.navItems}>
         <li className={styles.navItem}>
-          <a href="https://pubindexapi.com/">Homepage</a>
+          <a href="https://astro.pubindexapi.com/">Homepage</a>
         </li>
         <li className={styles.navItem}>
-          <a href="https://pubindexapi.com/terms/">Terms of use</a>
+          <a href="https://astro.pubindexapi.com/terms/">Terms of use</a>
         </li>
         <li className={styles.navItem}>
-          <a href="https://pubindexapi.com/privacy/">Privacy</a>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/policy">Policy</Link>
+          <a href="https://astro.pubindexapi.com/privacy/">Privacy</a>
         </li>
       </ul>
     </footer>
