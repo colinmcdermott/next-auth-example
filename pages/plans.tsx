@@ -11,6 +11,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
   // populated on render without needing to go through a loading stage.
   return (
     <Layout>
+
       <h1>Choose a plan</h1>
       <p>
         Choose a plan to get started.
@@ -24,12 +25,12 @@ export default function ServerSidePage({ session }: { session: Session }) {
             <div>
                 <div>
                     <ul>
-                    <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Indexing API</li>
-                    <li><img src="/tick-green.svg" alt="" width="15" height="15" /> RSS &amp; sitemap polling</li>
-                    <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 10,000 API requests per month</li>
-                    <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 5 GB bandwidth</li>
-                    <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Email support</li>
-                    <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Onboarding support</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Indexing API</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> RSS &amp; sitemap polling</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 10,000 API requests per month</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 5 GB bandwidth</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Email support</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Onboarding support</li>
                     </ul>
                 </div>
                 <div>
@@ -38,49 +39,47 @@ export default function ServerSidePage({ session }: { session: Session }) {
             </div>
         </div>
         <div>
-        <h2>Pro</h2>
-        <p>&pound;399.99 per month</p>
-        <p>For mid-sized publications</p>
-        <div>
-        <div>
-        <ul>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Indexing API</li>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> RSS &amp; sitemap polling</li>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 100,000 API requests per month</li>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 40 GB bandwidth</li>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Email &amp; phone support</li>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Onboarding support</li>
-        </ul>
+            <h2>Pro</h2>
+            <p>&pound;399.99 per month</p>
+            <p>For mid-sized publications</p>
+            <div>
+                <div>
+                    <ul>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Indexing API</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> RSS &amp; sitemap polling</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 100,000 API requests per month</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 40 GB bandwidth</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Email &amp; phone support</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Onboarding support</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><a href="/signup">Get started &rarr;</a></p>
+                </div>
+            </div>
         </div>
         <div>
-        <p><a href="/signup">Get started &rarr;</a></p>
-        </div>
-        </div>
-        </div>
-        <div>
-        <h2>Enterprise</h2>
-        <p>&pound;799.99 per month</p>
-        <p>For large publications &amp; newspapers</p>
-        <div>
-        <div>
-        <ul>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Indexing API</li>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> RSS &amp; sitemap polling</li>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 275,000 API requests per month</li>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 100 GB bandwidth</li>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Email &amp; phone support</li>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Onboarding support</li>
-        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Success manager</li>
-        </ul>
-        </div>
-        <div>
-        <p><a href="/signup">Get started &rarr;</a></p>
-        </div>
-        </div>
+            <h2>Enterprise</h2>
+            <p>&pound;799.99 per month</p>
+            <p>For large publications &amp; newspapers</p>
+            <div>
+                <div>
+                    <ul>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Indexing API</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> RSS &amp; sitemap polling</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 275,000 API requests per month</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> 100 GB bandwidth</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Email &amp; phone support</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Onboarding support</li>
+                        <li><img src="/tick-green.svg" alt="" width="15" height="15" /> Success manager</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><a href="/signup">Get started &rarr;</a></p>
+                </div>
+            </div>
         </div>
     </div>
-
-
 
     </Layout>
   )
