@@ -7,10 +7,11 @@
 }
 
 .card {
-    background-color: black;
+    background-color: var(--backOffsetColor);
     padding: 1.5rem;
     border-radius: 8px;
     opacity: .99;
+    min-height: 379px;
 }
 
 /* Media query for mobile */

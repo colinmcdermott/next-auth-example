@@ -1,5 +1,6 @@
 :root {
   color-scheme: dark light;
+  --backOffsetColor: rgba(0, 0, 0, 0.05);
 }
 
 body {
@@ -43,5 +44,8 @@ a:any-link:hover {
 @media (prefers-color-scheme: dark) {
   a:any-link {
       color: rgb(208, 173, 240);
+  }
+  :root {
+    --backOffsetColor: rgba(0, 0, 0, 0.39);
   }
 }
