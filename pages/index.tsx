@@ -11,7 +11,7 @@ export default function IndexPage() {
         <h2>Getting started</h2>
 
         <h3>
-          <a href="https://astro.pubindexapi.com/pricing/">Subscribe & Get API Key</a>
+          <a href="https://astro.pubindexapi.com/pricing/">Choose a plan & get API Key</a>
         </h3>
         <h3>
           <a href="/docs">Documentation</a>
@@ -19,7 +19,7 @@ export default function IndexPage() {
         <h3>
           <a href="/api-example">API Example</a>
         </h3>
-        
+
       </div>
     </Layout>
   )
