@@ -14,19 +14,27 @@ export default function ServerSidePage({ session }: { session: Session }) {
       setCurrency(newCurrency)
     }
   
-    // Define the prices in GBP and USD
-    const prices = {
-      GBP: {
-        starter: "£99.99",
-        pro: "£399.99",
-        enterprise: "£799.99",
-      },
-      USD: {
-        starter: "$129.99",
-        pro: "$499.99",
-        enterprise: "$999.99",
-      },
-    }
+    // Set + Define the prices in GBP and USD
+    type Prices = {
+        [key: string]: {
+          starter: string;
+          pro: string;
+          enterprise: string;
+        };
+      }
+      
+      const prices: Prices = {
+        GBP: {
+          starter: "£99.99",
+          pro: "£399.99",
+          enterprise: "£799.99",
+        },
+        USD: {
+          starter: "$129.99",
+          pro: "$499.99",
+          enterprise: "$999.99",
+        },
+      };
   
     // Get the price based on the selected currency
     const getPrice = (plan: string) => {
