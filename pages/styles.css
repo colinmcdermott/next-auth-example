@@ -31,7 +31,12 @@ iframe {
   filter: invert(1);
 }
 
-@media (max-width: 768px) {
+a:any-link {
+  color: rgb(0, 0, 238); 
+
+}
+
+@media (prefers-color-scheme: dark) { {
   a:any-link {
       color: rgb(208, 173, 240);
   }
