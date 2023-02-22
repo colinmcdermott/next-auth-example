@@ -76,7 +76,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                             </ul>
                         </div>
                         <div>
-                            <p><a href="https://pubindexapi.test.onfastspring.com/starter" rel="nofollow">Checkout &rarr;</a></p>
+                            <p className={styles.button}><a href="https://pubindexapi.test.onfastspring.com/starter" rel="nofollow">Checkout &rarr;</a></p>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                             </ul>
                         </div>
                         <div>
-                            <p><a href="https://pubindexapi.test.onfastspring.com/pro" rel="nofollow">Checkout &rarr;</a></p>
+                            <p className={styles.button}><a href="https://pubindexapi.test.onfastspring.com/pro" rel="nofollow">Checkout &rarr;</a></p>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                             </ul>
                         </div>
                         <div>
-                            <p><a href="https://pubindexapi.test.onfastspring.com/enterprise" rel="nofollow">Checkout &rarr;</a></p>
+                            <p className={styles.button}><a href="https://pubindexapi.test.onfastspring.com/enterprise" rel="nofollow">Checkout &rarr;</a></p>
                         </div>
                     </div>
                 </div>

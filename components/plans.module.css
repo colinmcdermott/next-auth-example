@@ -20,6 +20,18 @@
     margin-top: 2px;
 }
 
+.card {
+    margin-top:15px;
+}
+
+.card .button a {
+    color: #000;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 /* Media query for mobile */
 
 @media (max-width: 768px) {
