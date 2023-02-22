@@ -34,7 +34,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                     </ul>
                 </div>
                 <div>
-                    <p><a href="/signup">Get started &rarr;</a></p>
+                    <p><a href="/signup">Checkout &rarr;</a></p>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                     </ul>
                 </div>
                 <div>
-                    <p><a href="/signup">Get started &rarr;</a></p>
+                    <p><a href="/signup">Checkout &rarr;</a></p>
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                     </ul>
                 </div>
                 <div>
-                    <p><a href="/signup">Get started &rarr;</a></p>
+                    <p><a href="/signup">Checkout &rarr;</a></p>
                 </div>
             </div>
         </div>
