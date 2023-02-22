@@ -1,7 +1,7 @@
 import { getServerSession } from "next-auth/next"
 import { authOptions } from "./api/auth/[...nextauth]"
 import Layout from "../components/layout"
-import styles from "../components/header.module.css"
+import styles from "../components/plans.module.css"
 
 import type { GetServerSidePropsContext } from "next"
 import type { Session } from "next-auth"
