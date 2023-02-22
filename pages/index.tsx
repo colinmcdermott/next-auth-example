@@ -7,6 +7,17 @@ export default function IndexPage() {
       <p>
         Welcome to the Publisher Indexing API Dashboard.
       </p>
+      <div>
+        <h2>
+          <a href="/docs">Get an API Key</a>
+        </h2>
+        <h2>
+          <a href="/docs">Documentation</a>
+        </h2>
+        <h2>
+          <a href="/api-example">API Example</a>
+        </h2>
+      </div>
     </Layout>
   )
 }
