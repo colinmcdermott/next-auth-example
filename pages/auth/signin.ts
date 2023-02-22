@@ -1,6 +1,13 @@
+// path: pages\auth\signin.ts
+
 import { signIn, getCsrfToken, getProviders } from 'next-auth/react'
 
-const Signin = ({ csrfToken, providers }) => {
+interface SigninProps {
+    csrfToken: string;
+    providers: Record<string, any>;
+  }
+
+  const Signin = ({ csrfToken, providers }: SigninProps) => {
   return (
     <div style={{ overflow: 'hidden', position: 'relative' }}>
       <Header />
