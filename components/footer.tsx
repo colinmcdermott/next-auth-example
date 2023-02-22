@@ -10,7 +10,7 @@ export default function Footer() {
           <a href="https://pubindexapi.com/">Homepage</a>
         </li>
         <li className={styles.navItem}>
-          <a href="https://pubindexapi.com/terms/">Terms of use/a>
+          <a href="https://pubindexapi.com/terms/">Terms of use</a>
         </li>
         <li className={styles.navItem}>
           <a href="https://pubindexapi.com/privacy/">GitHub</a>
