@@ -32,9 +32,12 @@ export default function ProtectedPage() {
   // If session exists, display content
   return (
     <Layout>
-      <h1>Protected Page</h1>
+      <h1>Docs</h1>
       <p>
-        <strong>{content ?? "\u00a0"}</strong>
+        Welcome to the Publisher Indexing API Documentation.
+      </p>
+      <p>
+        We are still building this page, please return soon.
       </p>
     </Layout>
   )

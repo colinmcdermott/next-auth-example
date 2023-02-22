@@ -8,12 +8,9 @@ export default function ApiExamplePage() {
       <p>
         <em>You must be signed in to see responses.</em>
       </p>
-      <h2>Session</h2>
-      <p>/api/examples/session</p>
-      <iframe src="/api/examples/session" />
-      <h2>JSON Web Token</h2>
-      <p>/api/examples/jwt</p>
-      <iframe src="/api/examples/jwt" />
+      <h2>RSS Feed</h2>
+      <p>/api/feed</p>
+      <iframe src="https://feedping.dev/api/feed?feed=http://feeds.bbci.co.uk/news/uk/rss.xml" />
     </Layout>
   )
 }
