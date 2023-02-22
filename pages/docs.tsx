@@ -39,6 +39,8 @@ export default function ProtectedPage() {
       <p>
         We are still building this page, please return soon.
       </p>
+      <h2>Getting started</h2>
+      <h2>API Routes</h2>
     </Layout>
   )
 }
