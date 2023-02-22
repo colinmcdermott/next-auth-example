@@ -36,7 +36,7 @@ a:any-link {
 
 }
 
-@media (prefers-color-scheme: dark) { {
+@media (prefers-color-scheme: dark) {
   a:any-link {
       color: rgb(208, 173, 240);
   }
