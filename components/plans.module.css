@@ -32,6 +32,10 @@
     text-decoration: none;
 }
 
+.card .button a:hover {
+    text-decoration: underline;
+}
+
 /* Media query for mobile */
 
 @media (max-width: 768px) {
