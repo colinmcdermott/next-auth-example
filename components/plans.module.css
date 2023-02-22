@@ -16,6 +16,10 @@
     min-width: 275px;
 }
 
+.card h2 {
+    margin-top: 2px;
+}
+
 /* Media query for mobile */
 
 @media (max-width: 768px) {

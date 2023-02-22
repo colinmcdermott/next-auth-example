@@ -70,7 +70,7 @@ export default function Header() {
             <Link href="/plans">Plans</Link>
           </li>
           <li className={styles.navItem}>
-            <a href="/docs">Docs</a>
+            <Link href="/docs">Docs</Link>
           </li>
         </ul>
       </nav>
