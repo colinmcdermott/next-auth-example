@@ -8,15 +8,18 @@ export default function IndexPage() {
         Welcome to the Publisher Indexing API Dashboard.
       </p>
       <div>
-        <h2>
-          <a href="/docs">Get an API Key</a>
-        </h2>
-        <h2>
+        <h2>Getting started</h2>
+
+        <h3>
+          <a href="https://astro.pubindexapi.com/pricing/">Subscribe & Get API Key</a>
+        </h3>
+        <h3>
           <a href="/docs">Documentation</a>
-        </h2>
-        <h2>
+        </h3>
+        <h3>
           <a href="/api-example">API Example</a>
-        </h2>
+        </h3>
+        
       </div>
     </Layout>
   )
