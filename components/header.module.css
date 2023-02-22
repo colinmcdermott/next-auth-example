@@ -68,15 +68,11 @@
 }
 
 .buttonPrimary {
-  background-color: white;
+  background-color: var(--buttonBackgroundColor);
   border-color: #346df1;
-  color: #fff;
+  color: var(--buttonTextColor);
   text-decoration: none;
   padding: 0.7rem 1.4rem;
-}
-
-.buttonPrimary a {
-  color: black;
 }
 
 .navItems {

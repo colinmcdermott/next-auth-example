@@ -1,6 +1,7 @@
 :root {
   color-scheme: dark light;
   --backOffsetColor: rgba(0, 0, 0, 0.05);
+  --buttonTextColor: black;
 }
 
 body {
