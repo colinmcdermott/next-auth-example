@@ -34,7 +34,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                     </ul>
                 </div>
                 <div>
-                    <p><a href="/signup">Checkout &rarr;</a></p>
+                    <p><a href="https://pubindexapi.test.onfastspring.com/starter">Checkout &rarr;</a></p>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                     </ul>
                 </div>
                 <div>
-                    <p><a href="/signup">Checkout &rarr;</a></p>
+                    <p><a href="https://pubindexapi.test.onfastspring.com/pro">Checkout &rarr;</a></p>
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                     </ul>
                 </div>
                 <div>
-                    <p><a href="/signup">Checkout &rarr;</a></p>
+                    <p><a href="https://pubindexapi.test.onfastspring.com/enterprise">Checkout &rarr;</a></p>
                 </div>
             </div>
         </div>
