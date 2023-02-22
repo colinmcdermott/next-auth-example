@@ -10,10 +10,10 @@ export default function Footer() {
           <a href="https://astro.pubindexapi.com/">Home</a>
         </li>
         <li className={styles.navItem}>
-          <a href="https://astro.pubindexapi.com/terms/">Terms of use</a>
+          <a href="https://pubindexapi.com/terms/">Terms of use</a>
         </li>
         <li className={styles.navItem}>
-          <a href="https://astro.pubindexapi.com/privacy/">Privacy</a>
+          <a href="https://pubindexapi.com/privacy/">Privacy</a>
         </li>
       </ul>
       <p>PubIndexAPI © 2023 Search Candy Ltd - UK Company: 09241383</p>
