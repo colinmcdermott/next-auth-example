@@ -123,9 +123,9 @@ export default function ServerSidePage({ session }: { session: Session }) {
                 </div>
             </div>
 
-            <p><small>Prices shown do not include VAT or local taxes. Payment and subscription processing is handled by FastSpring.</small></p>
+            <p>Prices shown do not include VAT or local taxes. Payment and subscription processing is handled by FastSpring.</p>
 
-            <p><small>You can cancel or manage your subscription at any time from the Fast Spring billing dashboard.</small></p>
+            <p>You can cancel or manage your subscription at any time from the Fast Spring billing dashboard.</p>
 
 
             </Layout>
