@@ -14,8 +14,9 @@ export default function ServerSidePage({ session }: { session: Session }) {
 
       <h1>Choose a plan</h1>
       <p>
-        Choose a plan to get started.
+        Need help choosing a plan? <a href="https://pubindexapi.com/contact/">Contact us here</a>.
       </p>
+      <p>View prices in: <button>USD</button> <button>GBP</button></p>
 
     <div className={styles.plansContainer}>
         <div>
@@ -34,7 +35,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                     </ul>
                 </div>
                 <div>
-                    <p><a href="https://pubindexapi.test.onfastspring.com/starter">Checkout &rarr;</a></p>
+                    <p><a href="https://pubindexapi.test.onfastspring.com/starter" rel="nofollow">Checkout &rarr;</a></p>
                 </div>
             </div>
         </div>
@@ -54,7 +55,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                     </ul>
                 </div>
                 <div>
-                    <p><a href="https://pubindexapi.test.onfastspring.com/pro">Checkout &rarr;</a></p>
+                    <p><a href="https://pubindexapi.test.onfastspring.com/pro" rel="nofollow">Checkout &rarr;</a></p>
                 </div>
             </div>
         </div>
@@ -75,7 +76,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                     </ul>
                 </div>
                 <div>
-                    <p><a href="https://pubindexapi.test.onfastspring.com/enterprise">Checkout &rarr;</a></p>
+                    <p><a href="https://pubindexapi.test.onfastspring.com/enterprise" rel="nofollow">Checkout &rarr;</a></p>
                 </div>
             </div>
         </div>
