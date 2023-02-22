@@ -1,6 +1,7 @@
-import type { NextConfig } from 'next'
+// next.config.js
+import { NextConfig } from 'next'
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   reactStrictMode: true,
 }
 
