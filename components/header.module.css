@@ -68,9 +68,7 @@
 }
 
 .buttonPrimary {
-  background-color: var(--buttonBackgroundColor);
-  border-color: #346df1;
-  color: var(--buttonTextColor);
+  background-color: none;
   text-decoration: none;
   padding: 0.7rem 1.4rem;
 }
