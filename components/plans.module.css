@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    gap: 18px;
 }
 
 .card {
@@ -12,6 +13,7 @@
     border-radius: 8px;
     opacity: .99;
     min-height: 379px;
+    min-width: 305px;
 }
 
 /* Media query for mobile */
