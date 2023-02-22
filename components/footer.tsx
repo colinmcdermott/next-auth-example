@@ -16,6 +16,7 @@ export default function Footer() {
           <a href="https://astro.pubindexapi.com/privacy/">Privacy</a>
         </li>
       </ul>
+      <p>PubIndexAPI © 2023 Search Candy Ltd - UK Company: 09241383</p>
     </footer>
   )
 }
