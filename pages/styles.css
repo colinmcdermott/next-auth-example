@@ -30,3 +30,9 @@ iframe {
   border-radius: 0.5rem;
   filter: invert(1);
 }
+
+@media (max-width: 768px) {
+  a:any-link {
+      color: lightblue;
+  }
+}
