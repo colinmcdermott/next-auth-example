@@ -1,0 +1,16 @@
+.plansContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Media query for mobile */
+
+@media (max-width: 768px) {
+    .plansContainer {
+        flex-direction: column;
+    }
+}
+

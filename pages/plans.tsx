@@ -1,6 +1,7 @@
 import { getServerSession } from "next-auth/next"
 import { authOptions } from "./api/auth/[...nextauth]"
 import Layout from "../components/layout"
+import styles from "../components/header.module.css"
 
 import type { GetServerSidePropsContext } from "next"
 import type { Session } from "next-auth"
@@ -15,7 +16,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
         Choose a plan to get started.
       </p>
 
-    <section>
+    <div className={styles.plansContainer}>
         <div>
             <h2>Starter</h2>
             <p>&pound;99.99 per month</p>
