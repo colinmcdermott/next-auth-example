@@ -7,7 +7,7 @@ export default function Footer() {
       <hr />
       <ul className={styles.navItems}>
         <li className={styles.navItem}>
-          <a href="https://astro.pubindexapi.com/">Homepage</a>
+          <a href="https://astro.pubindexapi.com/">Home</a>
         </li>
         <li className={styles.navItem}>
           <a href="https://astro.pubindexapi.com/terms/">Terms of use</a>
