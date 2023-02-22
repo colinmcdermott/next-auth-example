@@ -18,6 +18,12 @@
   transition: all 0.2s ease-in;
 }
 
+@media (prefers-color-scheme: dark) {
+  .loaded {
+    background-color: rgba(0, 0, 0, 0.39);
+  }
+}
+
 .loading {
   top: -2rem;
   opacity: 0;
