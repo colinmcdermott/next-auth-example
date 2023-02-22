@@ -78,7 +78,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
         </div>
         </div>
         </div>
-    </section>
+    </div>
 
 
 
