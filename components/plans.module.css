@@ -16,6 +16,11 @@
     min-width: 275px;
 }
 
+.card ul {
+    padding: 0;
+    margin: 0;
+}
+
 /* Media query for mobile */
 
 @media (max-width: 768px) {
