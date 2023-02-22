@@ -32,8 +32,12 @@ iframe {
 }
 
 a:any-link {
-  color: rgb(0, 0, 238); 
+  color: rgb(0, 0, 238);
+  text-decoration: none; 
+}
 
+a:any-link:hover {
+  text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {
