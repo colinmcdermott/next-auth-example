@@ -35,11 +35,10 @@ export default function ServerSidePage({ session }: { session: Session }) {
           enterprise: "$999.99",
         },
       };
-  
-    // Get the price based on the selected currency
-    const getPrice = (plan: string) => {
-      return prices[currency][plan]
-    }
+      
+      const getPrice = (plan: "starter" | "pro" | "enterprise") => {
+        return prices[currency][plan];
+      };
   
     // As this page uses Server Side Rendering, the `session` will be already
     // populated on render without needing to go through a loading stage.
