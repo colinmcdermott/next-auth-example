@@ -5,15 +5,18 @@
   --textColor: black;
 }
 
+header,main,footer {
+  content-visibility: auto;
+}
+
 body {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: -apple-system,"Segoe UI", ui-sans-serif, system-ui, Roboto, sans-serif;
   padding: 0 1rem 1rem 1rem;
   max-width: 1080px;
   margin: 0 auto;
 }
 
-li,
-p {
+li, p {
   line-height: 1.5rem;
 }
 
@@ -31,7 +34,6 @@ iframe {
   height: 10rem;
   width: 100%;
   border-radius: 0.5rem;
-  filter: invert(1);
 }
 
 a:any-link {
