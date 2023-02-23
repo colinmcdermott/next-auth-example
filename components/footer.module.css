@@ -12,3 +12,13 @@
   display: inline-block;
   margin-right: 1rem;
 }
+
+.navItem a:any-link {
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  .navItem a:any-link {
+    color: white;
+  }
+}

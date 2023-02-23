@@ -1,6 +1,7 @@
 :root {
   color-scheme: dark light;
   --backOffsetColor: rgba(0, 0, 0, 0.05);
+  --textColor: black;
 }
 
 body {
@@ -47,5 +48,6 @@ a:any-link:hover {
   }
   :root {
     --backOffsetColor: rgba(0, 0, 0, 0.39);
+    --textColor: white;
   }
 }

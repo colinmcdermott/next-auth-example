@@ -19,13 +19,13 @@ export default function IndexPage() {
           <h2>Getting started</h2>
 
           <h3>
-            <Link href="/plans">Choose a plan & get API Key</Link>
+            <Link href="/plans/">Choose a plan & get API Key</Link>
           </h3>
           <h3>
-            <a href="/docs">Documentation</a>
+            <a href="/docs/">Documentation</a>
           </h3>
           <h3>
-            <a href="/api-example">API Example</a>
+            <a href="/api-example/">API Example</a>
           </h3>
 
         </div>
