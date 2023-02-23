@@ -49,6 +49,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                 <title>Plans - PubIndexAPI</title>
                 <meta name="color-scheme" content="dark light" />
                 <link rel='canonical' href='https://app.pubindexapi.com/plans/' />
+                <meta name="robots" content="noindex" />
             </Head>
 
             <Layout>
@@ -58,7 +59,7 @@ export default function ServerSidePage({ session }: { session: Session }) {
                 Need help choosing a plan? <a href="https://pubindexapi.com/contact/">Contact us here</a>.
             </p>
 
-            <p>View prices in: <button className={styles.currencyButton} onClick={() => handleCurrencyChange("USD")}>$/USD</button> <button className={styles.currencyButton} onClick={() => handleCurrencyChange("GBP")}>£/GBP</button></p>
+            <p>View prices in: <button className={styles.currencyButton} onClick={() => handleCurrencyChange("USD")}>$ USD</button> <button className={styles.currencyButton} onClick={() => handleCurrencyChange("GBP")}>£ GBP</button></p>
 
             <div className={styles.plansContainer}>
                 <div className={styles.card}>
