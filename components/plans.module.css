@@ -45,6 +45,10 @@
     padding: 5px;
 }
 
+.currencyButton:hover {
+    background-color: var(--backOffsetHoverColor);
+}
+
 /* Media query for mobile */
 
 @media (max-width: 768px) {
