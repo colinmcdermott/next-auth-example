@@ -36,6 +36,14 @@
     text-decoration: underline;
 }
 
+.currencyButton {
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
 /* Media query for mobile */
 
 @media (max-width: 768px) {

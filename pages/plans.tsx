@@ -57,7 +57,8 @@ export default function ServerSidePage({ session }: { session: Session }) {
             <p>
                 Need help choosing a plan? <a href="https://pubindexapi.com/contact/">Contact us here</a>.
             </p>
-            <p>View prices in: <button onClick={() => handleCurrencyChange("USD")}>USD</button> <button onClick={() => handleCurrencyChange("GBP")}>GBP</button></p>
+            
+            <p>View prices in: <button className={styles.currencyButton} onClick={() => handleCurrencyChange("USD")}>USD</button> <button className={styles.currencyButton} onClick={() => handleCurrencyChange("GBP")}>GBP</button></p>
 
             <div className={styles.plansContainer}>
                 <div className={styles.card}>
