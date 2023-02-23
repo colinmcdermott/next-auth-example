@@ -36,7 +36,7 @@ export default function ProtectedPage() {
       <Head>
         <title>Docs - PubIndexAPI</title>
         <meta name="color-scheme" content="dark light" />
-        <link rel='canonical' href='https://app.pubindexapi.com/docs' />
+        <link rel='canonical' href='https://app.pubindexapi.com/docs/' />
       </Head>
       <Layout>
         <h1>Docs</h1>

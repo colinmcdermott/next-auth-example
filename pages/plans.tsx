@@ -46,9 +46,9 @@ export default function ServerSidePage({ session }: { session: Session }) {
     return (
         <>
             <Head>
-                <title>Plans</title>
+                <title>Plans - PubIndexAPI</title>
                 <meta name="color-scheme" content="dark light" />
-                <link rel='canonical' href='https://app.pubindexapi.com/plans' />
+                <link rel='canonical' href='https://app.pubindexapi.com/plans/' />
             </Head>
 
             <Layout>
