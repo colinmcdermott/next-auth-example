@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .navItems {
@@ -14,12 +14,6 @@
 }
 
 .navItem a:any-link {
-  color: black;
+  color: var(--textColor);
   font-weight: 400;
-}
-
-@media (prefers-color-scheme: dark) {
-  .navItem a:any-link {
-    color: white;
-  }
 }
