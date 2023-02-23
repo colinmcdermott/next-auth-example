@@ -15,6 +15,7 @@
 
 .navItem a:any-link {
   color: black;
+  font-weight: 400;
 }
 
 @media (prefers-color-scheme: dark) {
